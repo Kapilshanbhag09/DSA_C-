@@ -5,6 +5,10 @@
     *Time Complexity Best Case: O(1)
     *Time Complexity Worst Case: O(n)
     *Time Complexity average Case: O(n)
+## Binary Search
+    *This requires array to be sorted
+    *Time Complexity Best case:O(1)
+    *Time Complexity Worst case:O(log n)
 ## Bubble Sort
 ## Selection Sort
 ## Insertion Sort

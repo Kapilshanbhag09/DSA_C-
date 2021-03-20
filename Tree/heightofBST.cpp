@@ -1,4 +1,5 @@
 #include<iostream>
+#include<math.h>
 using namespace std;
 
 class node{
@@ -25,31 +26,23 @@ void insertnode(node *&root, int data){
     }
 
 }
-int minele(node *root){
-    if(root->left==NULL){
-        return(root->data);
+int heightoftree(node *root){
+    if(root==NULL){
+        return(-1);
     }
     else{
-        return(minele(root->left));
-    }
-}
-int maxele(node *root){
-    if(root->right==NULL){
-        return(root->data);
-    }
-    else{
-        return(maxele(root->right));
+        return max(heightoftree(root->left),heightoftree(root->right))+1;
     }
 }
 int main(){
     node *root=NULL;
+    bool isf;
     insertnode(root,15);
     insertnode(root,12);
     insertnode(root,10);
     insertnode(root,25);
     insertnode(root,14);
     insertnode(root,30);
-    cout<<"Min is:"<<minele(root)<<endl;
-    cout<<"Max is:"<<maxele(root)<<endl;
+    cout<<"Height of tree"<<heightoftree(root)<<endl;
     return 0;
 }

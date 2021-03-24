@@ -26,5 +26,5 @@ There are 3 types.
 * Postorder:Left->Right->Root
 
 ## Questions
-* Check if Binary tree is Binary search Tree
-* Deleting a Node from Binary Search Tree
+* Check if Binary tree is Binary search Tree.
+* Deleting a Node from Binary Search Tree.

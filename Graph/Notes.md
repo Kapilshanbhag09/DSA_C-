@@ -34,6 +34,14 @@
 * Memory Efficient
 * 0->1,4; 1->2,3,4,0; 2->1,3; 3->2,1,4; 4->0,1,3
 ## --------------------------------------
+## Graph Traversal
+### Breadth First Search
+* STart from souce node, then direct neightbouring nodes of source and then next layer and so on
+* Iterative Approch
+* Uses Queue to maintain FIFO ordering
+* Time complexity:O(V+E)(using adjecency list)
+* Space complexity: O(V)
+### Depth First Search
 ### To Learn Graph Algorithms
 * Dijkstras Algorithm
 * Floyd Warshall Algorithm

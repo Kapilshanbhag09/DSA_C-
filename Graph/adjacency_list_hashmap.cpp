@@ -12,7 +12,7 @@ public:
     void addEdge(T u, T v, bool bidir=true){
         adjlist[u].push_back(v);
         if(bidir){
-            adjlist[u].push_back(u);
+            adjlist[v].push_back(u);
         }
     }
     void printlist(){

@@ -9,7 +9,7 @@ public:
         next=NULL;
     }
 };
-class Graph{
+class Linkedlist{
 public:
     void inserathead(Node*&head,int data){
         Node *n=new Node(data);
@@ -63,7 +63,7 @@ public:
 };
 int main(){
     Node *head=NULL;
-    Graph g=Graph();
+    Linkedlist g=Linkedlist();
     g.inserathead(head,1);
     g.inserathead(head,2);
     g.inserathead(head,3);
@@ -74,7 +74,6 @@ int main(){
     g.deleteathead(head);
     g.printlist(head);
     g.length(head);
-    cout<<endl;
     g.deleteattail(head);
     g.printlist(head);
     g.length(head);

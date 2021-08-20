@@ -2,7 +2,7 @@
 ## Object Oriented Programing
 ## Function and Pointers
 ## Array
-*Kadane's
+* Kadane's
 ## Linked List
 ## Stack
 ## Queues

@@ -13,7 +13,7 @@
 ## Hashing
 ## Graph
 ## Recursion and Backtracking
-## Sorting and Searching[https://github.com/Kapilshanbhag09/DSA_Cplusplus/tree/master/Sorting%20and%20Searching]
+## Sorting and Searching
 * Linear Search
 * Binary Search
 * Bubble Sort

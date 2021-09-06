@@ -12,6 +12,7 @@
 ## Heaps
 ## Hashing
 ## Graph
+* Prims
 ## Recursion and Backtracking
 ## Sorting and Searching
 * Linear Search

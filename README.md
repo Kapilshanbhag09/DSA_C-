@@ -13,6 +13,7 @@
 ## Hashing
 ## Graph
 * Prims
+* Dijkstra's
 ## Recursion and Backtracking
 ## Sorting and Searching
 * Linear Search
